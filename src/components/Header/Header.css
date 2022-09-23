@@ -1,0 +1,10 @@
+.header nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color:lightsalmon;
+}
+
+.header nav a:hover{
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+}
