@@ -31,7 +31,7 @@ const useFirebase = () => {
 
             }).catch(()=>{
 
-            })
+            });
     };
 
     useEffect(() => {
