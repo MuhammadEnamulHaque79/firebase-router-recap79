@@ -7,7 +7,7 @@ import app from '../../firebase.init';
 const auth=getAuth(app);
 const Products = () => {
     // const{user}=useFirebase();
-    const{user}=useAuthState(auth);
+    const[user]=useAuthState(auth);
     return (
         <div>
             <p>

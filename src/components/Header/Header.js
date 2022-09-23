@@ -9,7 +9,7 @@ import './Header.css';
 const auth=getAuth(app);
 const Header = () => {
     // const { user,handleSignOut } = useFirebase();
-    const{user,handleSignOut}=useAuthState(auth);
+    const [user,signOut]=useAuthState(auth);
     return (
         <div className='header'>
             <nav>
