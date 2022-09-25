@@ -5,8 +5,9 @@ import Home from './components/Home/Home';
 import Products from './components/Products/Products';
 import Orders from './components/Orders/Orders';
 import Reviews from './components/Reviews/Reviews';
-import Registration from './components/Registration/Registration';
+
 import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path='/products' element={<Products></Products>}></Route>
         <Route path='/orders' element={<Orders></Orders>}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
-        <Route path='/register' element={<Registration></Registration>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
       </Routes>
      
